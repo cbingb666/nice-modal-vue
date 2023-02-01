@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "nice-modal-vue": {
+      "signature": "4e48ec76bf88f4769a62192896498cb0",
+      "file": true
+    }
+  }
+}
