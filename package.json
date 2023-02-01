@@ -1,0 +1,27 @@
+{
+  "name": "nice-modal-vue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/cjs/index.js",
+  "module": "./lib/esm/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rollup ./src/index.js --file ./lib/esm/index.js --format esm -w",
+    "build": "rollup ./src/index.js --file ./lib/cjs/index.js --format cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbingb666/nice-modal-vue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cbingb666/nice-modal-vue/issues"
+  },
+  "homepage": "https://github.com/cbingb666/nice-modal-vue#readme",
+  "dependencies": {}
+}
